@@ -36,13 +36,13 @@ This branch is for building TWRP.
 
 ### To build: 
 ```
-repo init --depth=1 -u git://github.com/lj50036/platform_manifest_twrp_omni.git -b twrp-6.0
+repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_lineageos.git -b twrp-14.1
 
 repo sync
 
 . build/envsetup.sh
 
-lunch omni_p9000-userdebug
+lunch lineage_p9000-userdebug
 
 make clean && make recoveryimage
 ```

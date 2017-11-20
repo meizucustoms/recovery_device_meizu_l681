@@ -46,3 +46,5 @@ lunch lineage_p9000-userdebug
 
 make clean && make recoveryimage
 ```
+
+Ask before modify or publish this tree

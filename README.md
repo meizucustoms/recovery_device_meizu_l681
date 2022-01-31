@@ -1,27 +1,24 @@
-Elephone P9000
+Meizu M3 Note
 ==============
 
-The Elephone P9000 (codenamed _"P9000"_) is a flagship smartphone from Elephone.
-
-It was announced on 25 December 2015.
+The Meizu M3 Note (codenamed _"l681"_) is a flagship smartphone from Meizu.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | 2.0GHz Octa-Core MT6755 (Helio P10)
-GPU     | Mali-T860
-Memory  | 4GB RAM
-Shipped Android Version | 6.0
-Storage | 32GB
+GPU     | Mali-T860MP2
+Memory  | 2/3GB RAM
+Shipped Android Version | 5.1
+Storage | 16/32GB
 Battery | 3000 mAh
 Display | 5.5" 1920 x 1080 px
-Rear Camera | 13MP (Sony IMX258 Exmor RS), Dual LED Flash, Laser autofocus
-Front Camera | 8MP (OV)
+Rear Camera | 13MP, Dual-LED dual tone flash
+Front Camera | 5MP
+Launch date | April 2016
 
-![Elephone P9000](http://g03.a.alicdn.com/kf/HTB1.TsuKVXXXXanXXXXq6xXFXXX6/Official-Direct-Elephone-P9000-Helio-P10-MTK6755-2-0GHz-Octa-Core-4GB-RAM-32GB-ROM-5.jpg "Elephone P9000 in black")
+![M3 Note](https://cdn.svyaznoy.ru/upload/iblock/884/4144214_10.jpg/resize/483x483/hq/ "M3 Note")
 
-This branch is for building TWRP.
-
-### Thanks to:
+### Thanks to (P9000 tree):
  * CyanogenMod team
  * Deepflex
  * Wuxianlin
@@ -33,18 +30,3 @@ This branch is for building TWRP.
  * Visi0nary
  * andyrichardson
  * Team M.A.D
-
-### To build: 
-```
-repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_lineageos.git -b twrp-14.1
-
-repo sync
-
-. build/envsetup.sh
-
-lunch lineage_p9000-userdebug
-
-make clean && make recoveryimage
-```
-
-Ask before modify or publish this tree
